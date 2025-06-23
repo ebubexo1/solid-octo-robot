@@ -21,37 +21,44 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 2rem;
-        }
+       
+           nav {
+     display: flex;
+     justify-content: space-between;
+     justify-content: flex-end;
+     align-items: center;
+     padding: 0 2rem;
+     
+     font-size: larger;
+    }
 
-        nav h1 {
+     nav h1 {
             font-size: 1.8rem;
             font-weight: 600;
         }
 
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
+    /* Style the navigation list */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem; /* Space between nav items */
+    }
 
-        nav a:hover {
-            color: #e76f51;
-        }
+    /* Style the navigation links */
+    nav ul li a {
+      text-decoration: none;
+      color: #e76f51;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      
+    }
+
+    nav ul li a:hover {
+      color: #007BFF; /* Hover effect */
+      font-weight: 500;
+    }
+
 
         .hero {
             height: 80vh;
